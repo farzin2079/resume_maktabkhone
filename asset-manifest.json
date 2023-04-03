@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/resume_maktabkhone/static/css/main.c2e3d3d2.css",
+    "main.js": "/resume_maktabkhone/static/js/main.2de46e87.js",
+    "index.html": "/resume_maktabkhone/index.html",
+    "main.c2e3d3d2.css.map": "/resume_maktabkhone/static/css/main.c2e3d3d2.css.map",
+    "main.2de46e87.js.map": "/resume_maktabkhone/static/js/main.2de46e87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2e3d3d2.css",
+    "static/js/main.2de46e87.js"
+  ]
+}
