@@ -1,0 +1,81 @@
+{
+  "title": "Hello, Farzin'm",
+  "subtitle": "full-stack developer | Open-Source Enthusiast",
+  "links": {
+    "github": "https://github.com/Farzin2079",
+    "linkedin": "https://linkedin/FarzinAbbasi",
+    "website": "https://farzinabbasi.ir"
+  },
+  "sections": [
+    {
+      "title": "Aboute",
+      "items": [
+        {
+          "type": "p",
+          "content": "In July 1401, I started to learn professional programming and enrolled in cs50x harvard. In the first 6 weeks, I worked with C language and delivered 16 projects in the fields of presentation, algorithm, memory and data structure, then I worked with Python, SQL, HTML, CSS, JavaScript, Flask framework and received a certificate. After that, I went to cs50web, which works in the field of web programming in a more specialized way, and I got to know git, django, react, test and web security. Apart from all the tutorials and documents, I learned Node, Express, Postgres, Mongodb, Firebase and Docker freely."
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "items": [
+        {
+          "type": "card",
+          "content": {
+            "image": "img/react.png",
+            "title": "React"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/JS.png",
+            "title": "Javascript"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/django.png",
+            "title": "Django"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/git.png",
+            "title": "Git"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/python.png",
+            "title": "Python"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/node.png",
+            "title": "Node"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/css3.png",
+            "title": "CSS"
+          }
+        },
+        {
+          "type": "card",
+          "content": {
+            "image": "img/html5.png",
+            "title": "HTML"
+          }
+        }
+      ]
+    }
+  ]
+}
