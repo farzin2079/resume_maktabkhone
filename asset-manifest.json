@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/resume_maktabkhone/static/css/main.ec4b56f6.css",
-    "main.js": "/resume_maktabkhone/static/js/main.77f513b9.js",
+    "main.css": "/resume_maktabkhone/static/css/main.ef6d3be7.css",
+    "main.js": "/resume_maktabkhone/static/js/main.1aa47f9f.js",
     "index.html": "/resume_maktabkhone/index.html",
-    "main.ec4b56f6.css.map": "/resume_maktabkhone/static/css/main.ec4b56f6.css.map",
-    "main.77f513b9.js.map": "/resume_maktabkhone/static/js/main.77f513b9.js.map"
+    "main.ef6d3be7.css.map": "/resume_maktabkhone/static/css/main.ef6d3be7.css.map",
+    "main.1aa47f9f.js.map": "/resume_maktabkhone/static/js/main.1aa47f9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec4b56f6.css",
-    "static/js/main.77f513b9.js"
+    "static/css/main.ef6d3be7.css",
+    "static/js/main.1aa47f9f.js"
   ]
 }
