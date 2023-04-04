@@ -5,7 +5,7 @@ export default function Card(items) {
   return (
     <div className="cards-wrapper">
       {items.items.map((skill) => (
-        <div className="card">
+        <div className="card" key={skill.id}>
           <div className="image-wrapper">
             <img src={skill.content.image} alt="#" />
           </div>

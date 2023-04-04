@@ -20,58 +20,66 @@
       "title": "Skills",
       "items": [
         {
+          "id": 1,
           "type": "card",
           "content": {
-            "image": "img/react.png",
+            "image": "/resume_maktabkhone/img/react.png",
             "title": "React"
           }
         },
         {
+          "id": 2,
           "type": "card",
           "content": {
-            "image": "img/JS.png",
+            "image": "/resume_maktabkhone/img/JS.png",
             "title": "Javascript"
           }
         },
         {
+          "id": 3,
           "type": "card",
           "content": {
-            "image": "img/django.png",
+            "image": "/resume_maktabkhone/img/django.png",
             "title": "Django"
           }
         },
         {
+          "id": 4,
           "type": "card",
           "content": {
-            "image": "img/git.png",
+            "image": "/resume_maktabkhone/img/git.png",
             "title": "Git"
           }
         },
         {
+          "id": 5,
           "type": "card",
           "content": {
-            "image": "img/python.png",
+            "image": "/resume_maktabkhone/img/python.png",
             "title": "Python"
           }
         },
         {
+          "id": 6,
           "type": "card",
           "content": {
-            "image": "img/node.png",
+            "image": "/resume_maktabkhone/img/node.png",
             "title": "Node"
           }
         },
         {
+          "id": 7,
           "type": "card",
           "content": {
-            "image": "img/css3.png",
+            "image": "/resume_maktabkhone/img/css3.png",
             "title": "CSS"
           }
         },
         {
+          "id": 8,
           "type": "card",
           "content": {
-            "image": "img/html5.png",
+            "image": "/resume_maktabkhone/img/html5.png",
             "title": "HTML"
           }
         }

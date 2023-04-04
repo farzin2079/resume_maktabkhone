@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 html,
-body,
-.App {
+body {
   height: 100%;
   margin: 0;
   font-family: "Roboto Condensed", sans-serif;
@@ -17,17 +16,17 @@ body,
   align-items: center;
 }
 
-.first .down-img {
+.down-img-first {
   position: absolute;
   bottom: 10px;
   right: 50px;
 }
-.secend .down-img{
+.down-img-secend {
   position: absolute;
   bottom: -45vw;
   right: 50px;
 }
-.up-img{
+.up-img {
   position: absolute;
   bottom: -95vw;
   right: 50px;
@@ -35,7 +34,35 @@ body,
 }
 
 .up-img:hover,
-.down-img:hover{
+.down-img:hover {
   border-radius: 50%;
   box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+}
+.change-theme {
+  width: 100%;
+  text-align: center;
+  background-color: yellow;
+}
+button#blue {
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+  background-color: blue;
+}
+.links{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.links a{
+  text-decoration: none;
+  color: #555;
+  margin: 0 10px;
+  font-size: 25px;
+}
+nav img{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 30px;
 }
