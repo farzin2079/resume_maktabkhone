@@ -1,29 +1,28 @@
 {
-  "title": "Hello, Farzin'm",
-  "subtitle": "full-stack developer | Open-Source Enthusiast",
+  "title": "سلام من فرزین هستم",
+  "subtitle": "برنامه نویس وب | ری اکت ",
   "links": {
     "github": "https://github.com/Farzin2079",
-    "linkedin": "https://linkedin/FarzinAbbasi",
-    "website": "https://farzinabbasi.ir"
+    "linkedin": "https://www.linkedin.com/in/farzinabbasi/"
   },
   "sections": [
     {
-      "title": "Aboute",
+      "title": "درباره من",
       "items": [
         {
           "type": "p",
-          "content": "In July 1401, I started to learn professional programming and enrolled in cs50x harvard. In the first 6 weeks, I worked with C language and delivered 16 projects in the fields of presentation, algorithm, memory and data structure, then I worked with Python, SQL, HTML, CSS, JavaScript, Flask framework and received a certificate. After that, I went to cs50web, which works in the field of web programming in a more specialized way, and I got to know git, django, react, test and web security. Apart from all the tutorials and documents, I learned Node, Express, Postgres, Mongodb, Firebase and Docker freely."
+          "content": "در تیر 1401, شروع به یادگیری برنامه نویسی حرفه ای کردم و در cs50x هاروارد ثبت نام کردم. در 6 هفته اول با زبان C کار کردم و 16 پروژه در زمینه های الگوریتم، حافظه و ساختار داده تحویل دادم، سپس با Python, SQL, HTML, CSS, JavaScript, Flask Framework کار کردم و گواهینامه دریافت کردم. بعد از آن به سراغ cs50web رفتم که در زمینه برنامه نویسی وب به صورت تخصصی تری فعالیت می کند و با git، django، react، test و امنیت وب آشنا شدم. جدا از تمام آموزش ها و مدارک، Node، Express، Postgres، Mongodb، Firebase و را به صورت آزاد یاد گرفتم.."
         }
       ]
     },
     {
-      "title": "Skills",
+      "title": "مهارت ها",
       "items": [
         {
           "id": 1,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/react.png",
+            "icon": "fab fa-react",
             "title": "React"
           }
         },
@@ -31,7 +30,7 @@
           "id": 2,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/JS.png",
+            "icon": "fab fa-js-square",
             "title": "Javascript"
           }
         },
@@ -39,49 +38,81 @@
           "id": 3,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/django.png",
-            "title": "Django"
+            "icon": "fab fa-git-alt",
+            "title": "Git"
           }
         },
         {
           "id": 4,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/git.png",
-            "title": "Git"
+            "icon": "fab fa-node-js",
+            "title": "Node"
           }
         },
         {
           "id": 5,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/python.png",
-            "title": "Python"
+            "icon": "fab fa-css3",
+            "title": "CSS"
           }
         },
         {
           "id": 6,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/node.png",
-            "title": "Node"
+            "icon": "fab fa-html5",
+            "title": "HTML"
           }
         },
         {
           "id": 7,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/css3.png",
-            "title": "CSS"
+            "icon": "fab fa-bootstrap",
+            "title": "bootstarp"
           }
         },
         {
           "id": 8,
           "type": "card",
           "content": {
-            "image": "/resume_maktabkhone/img/html5.png",
-            "title": "HTML"
+            "icon": "fas fa-font-awesome",
+            "title": "Font Awesome"
           }
+        }
+      ]
+    },
+    {
+      "title": "پروژه ها",
+      "items": [
+        {
+          "title": "Movie",
+          "intro": "React | Api",
+          "perview": "https://farzinabbasi.ir/movie/"
+        },
+        {
+          "title": "Todos",
+          "intro": "React | mobx",
+          "perview": "https://farzinabbasi.ir/todos/",
+          "video": "https://www.aparat.com/v/vmeUY"
+        },
+        {
+          "title": "React Quiz",
+          "intro": "React",
+          "perview": "https://farzinabbasi.ir/react-quiz/"
+        },
+        {
+          "title": "Memory Game",
+          "intro": "React",
+          "perview": "https://farzinabbasi.ir/memorygame/",
+          "video": "https://www.aparat.com/v/0sNQI"
+        },
+        {
+          "title": "Additions",
+          "intro": "Html, Css, Js",
+          "perview": "https://farzinabbasi.ir/additions/"
         }
       ]
     }

@@ -1,5 +1,6 @@
+// @ts-nocheck
 /* eslint-disable jsx-a11y/alt-text */
-import { Element, Link } from "react-scroll";
+import React from "react";
 import { useState } from "react";
 import Snowfall from "react-snowfall";
 
@@ -9,6 +10,9 @@ import "./App.css";
 import Title from "./components/Title";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Project from "./components/Project";
+import Seo from "./components/Seo";
+import NavBar from "./components/NavBar";
 
 function App() {
   const [color, setColor] = useState("#black");
@@ -25,7 +29,7 @@ function App() {
   ];
   const colors = ["#ccc", "#004080", "#333", "007070", "#804000"];
 
-  const changetheme = (e) => {
+  const changetheme = () => {
     setColor(colors[i]);
     setBackground(backgroundColors[i]);
 
@@ -51,51 +55,23 @@ function App() {
         }}
       />
 
-      <nav>
-        <span>
-          <img
-            src={`${process.env.PUBLIC_URL}/img/theme.png`}
-            onClick={changetheme}
-          />
-        </span>
-        <h1 className="links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-        </h1>
-      </nav>
+        <Seo />
+        <NavBar changetheme={changetheme} />
 
-      <Element name="title" className="fullpage">
+      <div className="custom-full">
         <Title data={data} />
+      </div>
 
-        <Link to="about" smooth={true} duration={400} className="down">
-          <img
-            src={`${process.env.PUBLIC_URL}/img/down.png`}
-            className="down-img-first"
-          />
-        </Link>
-      </Element>
-
-      <Element name="about" className="fullpage" id="about">
+      <div className="custom-full">
         <About data={data} />
+      </div>
 
-        <Link to="cards" smooth={true} duration={400} className="down">
-          <img
-            src={`${process.env.PUBLIC_URL}/img/down.png`}
-            className="down-img-secend"
-          />
-        </Link>
-      </Element>
-
-      <Element name="cards" className="fullpage" id="skills">
+      <div className="custom-full">
         <Skills data={data} />
-
-        <Link to="title" smooth={true} duration={600} className="down">
-          <img
-            src={`${process.env.PUBLIC_URL}/img/down.png`}
-            className="up-img"
-          />
-        </Link>
-      </Element>
+      </div>
+      {/* <div className="custom-full">
+        <Project item={data} />
+      </div> */}
     </div>
   );
 }
